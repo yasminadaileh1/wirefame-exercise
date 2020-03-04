@@ -3,28 +3,28 @@ body{
     margin: auto;
   }
   header{
-    width: 1225px;
+    width: 1100px;
     position: relative;
-    background-color: #504d4d;
-    height: 120px;
+    background-color: #463f3f;
+    height: 90px;
     margin: auto;
   }
   header img{
     height: 70px;
-      width: 200px;
-      position: absolute;
-      margin: 25px;
+    width: 200px;
+    position: absolute;
+    margin: 10px 51px;
   }
   
   
   header ul{
     justify-content: space-between;
     flex-direction: row;
-    background-color: #504d4d;
+    background-color:#463f3f;
     display: flex;
     padding: 25px 25px 25px 25px;
-    width: 909px;
-    height: 120px;
+   
+    height: 90px;
     box-sizing: border-box;
     text-align: center;
     font-size: 20px;
@@ -32,19 +32,20 @@ body{
   
   }
   header ul li{
-    justify-content: space-between;
-    height: 70px;
-    width: 200px;
-    background-color: #686f6f;
-    box-sizing: border-box;
-    text-align: center;
+       top: 50%;
+       justify-content: space-between;
+       width: 200px;
+       background-color: #463f3f;
+       box-sizing: border-box;
+       text-align: center;
+       color: #93939e;
   }
   span img{
-    margin: 23.5px 82.5px 82.5px 166.5px;
+    margin: 30px 81.5px 30px 150.5px;
   }
   main nav{
-    margin: -40px 146px 10px 145px;
-    justify-content: space-around;
+    margin: 0px 155px 10px 123px;
+    justify-content: space-evenly;
     display: flex;
   }
    ol{
@@ -52,14 +53,18 @@ body{
     display: flex;
     justify-content: space-around;
    }
+
+   ol img{
+    margin: 20px 30px 30px 10px;
+   }
  div{
-      margin: 30px 82.5px 30px 0;
-      background-color: #ddd;
-      display: block;
-      height: 400px;
-      overflow-y: scroll;
-      text-align: center;
-      width: 480px;
+  margin: 20px 144px 30px 0;
+  background-color: #ddd;
+  display: block;
+  height: 300px;
+  overflow-y: scroll;
+  text-align: center;
+  width: 445px;
     }
     section {
       display: flex;
@@ -106,7 +111,6 @@ body{
   button:after{
       content: '';
       display: block;
-      position: absolute;
       background: rgb(165, 116, 116);
       width: 80px;
       height: 100%;
@@ -125,7 +129,7 @@ body{
   footer{
     width: 1225px;
     position: relative;
-    background-color: #504d4d;
+    background-color: #463f3f;
     height: 120px;
     margin: auto;
   }
